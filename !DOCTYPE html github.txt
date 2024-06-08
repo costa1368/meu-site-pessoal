@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .portfolio-item {
+            margin-bottom: 1rem;
+        }
+        .blog-post {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Meu Site Pessoal</h1>
+</header>
+
+<nav>
+    <a href="#home">Início</a>
+    <a href="#about">Sobre Mim</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#blog">Blog</a>
+    <a href="#experience">Experiência</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="home">
+    <div class="container">
+        <h2>Página Inicial</h2>
+        <p>Bem-vindo ao meu site pessoal! Aqui você encontrará informações sobre minha trajetória profissional, meus interesses e minhas experiências com o controle da pré-diabetes, perda de peso e composição corporal.</p>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou [Seu Nome], um [sua profissão] com uma paixão por [seus interesses]. Minha jornada de vida me levou a explorar a importância da nutrição e dos hábitos saudáveis, especialmente no controle da pré-diabetes e na melhora da composição corporal.</p>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h2>Portfólio</h2>
+        <div class="portfolio-item">
+            <h3>Projeto 1</h3>
+            <p>Descrição do Projeto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 2</h3>
+            <p>Descrição do Projeto 2.</p>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </div>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Postagem 1</h3>
+            <p>Conteúdo da Postagem 1.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Postagem 2</h3>
+            <p>Conteúdo da Postagem 2.</p>
+        </div>
+        <!-- Adicione mais postagens conforme necessário -->
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <h2>Experiência com Pré-Diabetes</h2>
+        <p>Aqui você encontrará artigos, gráficos de progresso, fotos de antes e depois, dicas e receitas sobre como gerenciei minha pré-diabetes e melhorei minha saúde geral através de mudanças de hábitos e melhora nutricional.</p>
+        <!-- Exemplo de gráfico de progresso -->
+        <h3>Gráfico de Progresso</h3>
+        <img src="progresso.png" alt="Gráfico de Progresso" style="width:100%;max-width:600px;">
+        <!-- Exemplo de fotos de antes e depois -->
+        <h3>Fotos de Antes e Depois</h3>
+        <img src="antes.jpg" alt="Antes" style="width:48%;display:inline-block;">
+        <img src="depois.jpg" alt="Depois" style="width:48%;display:inline-block;">
+        <!-- Exemplo de dicas e receitas -->
+        <h3>Dicas e Receitas</h3>
+        <p>Dica 1: [Descrição da Dica 1]</p>
+        <p>Receita 1: [Descrição da Receita 1]</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do e-mail: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+        <p>Siga-me nas redes sociais:</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
